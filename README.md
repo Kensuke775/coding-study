@@ -24,6 +24,21 @@
 |---|---|
 | `set/sort-set.js` | Set を使った重複排除とソートのパターン |
 
+### 文字列（String）
+| ファイル | 内容 |
+|---|---|
+| `string/string-half-match.js` | 文字列の前半・後半を比較し、一致部分をxに置換するパターン |
+
+### 再帰（Recursion）
+| ファイル | 内容 |
+|---|---|
+| `recursion/recursion-subset-sum.js` | 各要素を含める/含めないで分岐する全探索、部分集合の最大和 O(2^N) |
+
+### 全探索（Brute Force）
+| ファイル | 内容 |
+|---|---|
+| `brute-force/brute-force-independent-choices.js` | 独立した選択肢（ペア選び×操作選び）ごとにループをネストするパターン。再帰との使い分けも整理 |
+
 ## 計算量の考え方
 
 各ファイルにビッグO記法でコメントを記載しています。
